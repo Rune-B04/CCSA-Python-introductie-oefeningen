@@ -1,3 +1,3 @@
-Studentennummer: 
-Voornaam: 
-Familienaam: 
+Studentennummer: 202520273
+Voornaam: Rune
+Familienaam: Bleyenberg
