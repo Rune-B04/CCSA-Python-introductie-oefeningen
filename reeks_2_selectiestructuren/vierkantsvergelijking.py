@@ -11,11 +11,14 @@ if det<0:
 elif det==0:
     print("een wortel")
     root=-b/(2*a)
-    print(round(root,1))
+    print((root))
 elif det>0:
     print("twee wortels")
-    root1,root2= (-b-math.sqrt(det))/2*a,(-b+math.sqrt(det))/2*a
+    root1,root2= (-b-math.sqrt(det))/(2*a),(-b+math.sqrt(det))/(2*a)
     if root1>root2:
-        print(f"{round(root2,1)}\n{round(root1,1)}")
+        print(f"{(root2)}\n{(root1)}")
     else:
-        print(f"{round(root1,1)}\n{round(root2,1)}")
+        print(f"{(root1)}\n{(root2)}")
+        
+        
+# GEEN ROUND GEBRUIKEN
